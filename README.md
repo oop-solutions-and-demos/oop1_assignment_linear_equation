@@ -2,13 +2,13 @@
 
 This is an assignment for the course Object Oriented Programming with Java for students of VIVES University in Bruges.
 
-The goal of this assignment is to learn to work with decision making structures, loop structures and make use of mathematical operators.
+The goal of this assignment is to check if you can make use of variables, operators, decision making structures and loop structures. It also checks if you understand the concept of variable scope.
 
 **Do not forget to fill out the report !**
 
 ## Assignment - Linear Equation
 
-For this assignment you will need to create an application that can print linear equations. A linear equation has the following form:
+For this assignment you will need to create an application that can **print linear equations**. A linear equation has the following form:
 
 ```math
 y = ax + b
@@ -16,12 +16,12 @@ y = ax + b
 
 `a` and `b` are called the **coefficients** of the equation and actually determine the slope and y-intercept point of the equation.
 
-Your application will need to be able to do two things:
+Your application will need to be able to **do two things**:
 
 * request the coefficients from the user
 * output the equation and its intercept points (which need to be calculated)
 
-To make your application a bit more user-friendly you should present these options to the user in the form of a menu as shown next:
+To make your application a bit more user-friendly you should present these options to the user in the form of a **menu** as shown next:
 
 ```text
 Welcome to the linear equation printer.
@@ -36,7 +36,7 @@ Your choice?
 
 ### Inputting the coefficients
 
-Allow the user to input the `a` and `b` coefficients when he/she selects the first menu option. Save these values inside variables of type `double` and make sure they are saved between menu switches. Remember that you can read doubles using the `Scanner` class by calling the `nextDouble()` method.
+Allow the user to input the `a` and `b` coefficients when he/she selects the first menu option. Save these values inside variables of type `double` and make sure they are not lost or reset between menu switches. Remember that you can read doubles using the `Scanner` class by calling the `nextDouble()` method.
 
 Example after choosing menu option `1`:
 
@@ -58,9 +58,9 @@ Your choice?
 
 ### Outputting the equation and determining the intercept points
 
-The following requirements need to be met when the user selects the second menu option.
+If a user selects the second option from the menu, the equation should be printed to the console together with the intercept points.
 
-Outputting the equation is simple. Just print the equation to the terminal in the following format:
+Outputting the equation is straight forward. Just **print the equation to the terminal** in the following format:
 
 ```text
 The linear equation: y = 5.7x + 3.5
