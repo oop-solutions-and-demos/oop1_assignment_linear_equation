@@ -86,3 +86,13 @@ The x-intercept occurs for x = -0.61403
 Do not worry if the number of decimals after the floating point are a bit different.
 
 You can use the example above as a check for your program.
+
+## Solution
+
+The solution to this assignment can be found in the solution branch. Clone the repo and checkout the branch.
+
+```shell
+git clone https://github.com/oop-solutions-and-demos/oop1_assignment_linear_equation-with-solution.git
+cd oop1_assignment_linear_equation-with-solution
+git checkout solution
+```
